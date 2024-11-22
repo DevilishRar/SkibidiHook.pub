@@ -1,4 +1,3 @@
-/* Base Styles and Animations */
 @keyframes float {
     0% { transform: translateY(0px) rotate(0deg); }
     50% { transform: translateY(-20px) rotate(5deg); }
@@ -65,7 +64,6 @@ section h2 {
     -webkit-text-fill-color: transparent;
 }
 
-/* Floating Spheres */
 .sphere {
     position: fixed;
     border-radius: 50%;
@@ -98,7 +96,6 @@ section h2 {
     animation: pulse 10s ease-in-out infinite;
 }
 
-/* Navigation */
 nav {
     position: fixed;
     top: 0;
@@ -166,7 +163,6 @@ nav {
     transform: translateY(-2px);
 }
 
-/* Header */
 header.hero {
     min-height: 100vh;
     padding: 8rem 2rem 4rem;
@@ -215,7 +211,6 @@ h1 {
     opacity: 0.9;
 }
 
-/* Buttons */
 .header-buttons {
     display: flex;
     gap: 1rem;
@@ -251,7 +246,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Gameplay Section */
 #gameplay {
     position: relative;
 }
@@ -322,7 +316,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/* Epic Sections */
 .epic-section {
     text-align: center;
     padding: 6rem 2rem;
@@ -377,7 +370,6 @@ h1 {
     opacity: 0.9;
 }
 
-/* Discord Section */
 #join-discord {
     text-align: center;
     padding: 6rem 2rem;
@@ -407,7 +399,6 @@ h1 {
     margin-top: 2rem;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .gameplay-features {
         grid-template-columns: repeat(2, 1fr);
@@ -457,7 +448,6 @@ h1 {
     }
 }
 
-/* Features Section */
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -489,7 +479,6 @@ h1 {
     margin: 0.5rem 0;
 }
 
-/* Gameplay Section */
 .gameplay-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -579,7 +568,6 @@ h1 {
     font-size: 1.3rem;
 }
 
-/* Epic Sections */
 .epic-section {
     min-height: 100vh;
     position: relative;
@@ -591,7 +579,6 @@ h1 {
     background: transparent;
 }
 
-/* Power Section */
 .epic-content {
     text-align: center;
     position: relative;
@@ -659,7 +646,6 @@ h1 {
     font-size: 1.2rem;
 }
 
-/* Cyber Features Section */
 .cyber-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -741,7 +727,6 @@ h1 {
     opacity: 0.5;
 }
 
-/* Ultimate Section */
 .ultimate {
     background: transparent;
 }
@@ -794,7 +779,6 @@ h1 {
     animation: borderSlide 2s linear infinite;
 }
 
-/* Discord Section */
 #join-discord {
     text-align: center;
     padding: 6rem 2rem;
@@ -828,7 +812,6 @@ h1 {
     margin-top: 2rem;
 }
 
-/* Pricing Section */
 #pricing {
     background: transparent;
     padding: 6rem 2rem;
@@ -957,7 +940,6 @@ h1 {
     opacity: 0.9;
 }
 
-/* Updates Section */
 #updates {
     background: transparent;
     padding: 6rem 2rem;
@@ -997,7 +979,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Reviews Section */
 #reviews {
     background: transparent;
     padding: 6rem 2rem;
@@ -1059,7 +1040,6 @@ h1 {
     margin-bottom: 1rem;
 }
 
-/* Support Section */
 #support {
     background: transparent;
     padding: 6rem 2rem;
@@ -1100,7 +1080,6 @@ h1 {
     line-height: 1.6;
 }
 
-/* FAQ Section */
 #faq .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1157,7 +1136,6 @@ h1 {
     transform: rotate(45deg);
 }
 
-/* Legal Section */
 #legal .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1214,7 +1192,6 @@ h1 {
     transform: rotate(45deg);
 }
 
-/* Fix Pricing Section */
 .pricing-container {
     display: flex;
     flex-direction: column;
@@ -1249,7 +1226,6 @@ h1 {
     transform: translateY(-2px);
 }
 
-/* Fix Footer Links */
 .footer-links a {
     color: #F0ABFC;
     text-decoration: none;
@@ -1260,7 +1236,6 @@ h1 {
     color: #9333EA;
 }
 
-/* Footer */
 footer {
     background: rgba(10, 10, 10, 0.3);
     backdrop-filter: blur(10px);
@@ -1307,7 +1282,6 @@ footer {
     border-top: 1px solid rgba(147, 51, 234, 0.2);
 }
 
-/* Fix for the Ready to Dominate button */
 .ultimate-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -1351,7 +1325,6 @@ footer {
     transform: translateX(100%);
 }
 
-/* Additional Responsive Fixes */
 @media (max-width: 1024px) {
     .pricing-grid,
     .footer-content {
@@ -1408,7 +1381,6 @@ footer {
     }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -1426,7 +1398,6 @@ footer {
     background: #F0ABFC;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
